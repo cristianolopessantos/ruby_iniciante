@@ -11,7 +11,7 @@ class Livro
 
     def calcula_preco(base)
         if (ano_lancamento < 1999)
-            base*=0.7
+            base*=0.8
         else
             base*=1.0
         end
